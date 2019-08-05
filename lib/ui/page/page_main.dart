@@ -11,8 +11,12 @@ class HomeScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: Drawer(
+
+      ),
       appBar: AppBar(
-        title: Text('HOME'),
+        centerTitle: true,
+        title: Text('Home'),
       ),
       body: Center(
           child: Text(

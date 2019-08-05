@@ -12,6 +12,7 @@ class HomeScreenState extends State<HistoryScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text('History'),
       ),
     );

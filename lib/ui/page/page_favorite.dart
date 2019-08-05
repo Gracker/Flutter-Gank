@@ -12,6 +12,7 @@ class HomeScreenState extends State<FavoriteScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text('Favorite'),
       ),
     );
