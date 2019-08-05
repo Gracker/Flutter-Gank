@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:gank/ui/page/page_category.dart';
-import 'package:gank/ui/page/page_favorite.dart';
-import 'package:gank/ui/page/page_gallery.dart';
-import 'package:gank/ui/page/page_history.dart';
-import 'package:gank/ui/page/page_main.dart';
+import 'package:Gank/ui/page/page_category.dart';
+import 'package:Gank/ui/page/page_favorite.dart';
+import 'package:Gank/ui/page/page_gallery.dart';
+import 'package:Gank/ui/page/page_history.dart';
+import 'package:Gank/ui/page/page_main.dart';
 
 class BottomNavigationWidget extends StatefulWidget {
 
@@ -12,7 +12,7 @@ class BottomNavigationWidget extends StatefulWidget {
 }
 
 class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
-  var _bottomNavigationColor = Colors.lightBlueAccent;
+  var _bottomNavigationColor = Colors.lightBlue;
   int _currentIndex = 0;
   List<Widget> list = List();
 
